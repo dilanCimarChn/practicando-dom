@@ -1,5 +1,8 @@
+// App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import './App.css'; // Archivo CSS para las transiciones
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
